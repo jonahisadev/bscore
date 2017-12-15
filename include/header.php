@@ -1,0 +1,1 @@
+<h3 class="logged-in">Logged In: <?php echo($_SESSION['login_name']); ?></h3>

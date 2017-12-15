@@ -1,0 +1,164 @@
+body {
+	background-color: #E3E3E3;
+	height: 100%;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 48pt;
+	margin: 0;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+h3 {
+	font-family: Arial;
+	font-size: 24pt;
+	margin-bottom: 5px;
+}
+
+h4 {
+	font-family: Arial;
+	font-size: 14pt;
+	margin-bottom: 10px;
+}
+
+table {
+	margin-left: 10%;
+	font-family: Arial;
+	font-size: 20pt;
+	border-radius: 7px;
+	border-collapse: collapse;
+	width: 80%;
+	background-color: #FFFFFF;
+}
+
+td, th {
+	border: 3px solid #000000;
+	padding: 5px;
+}
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 3px solid #888888;
+	background-color: #FFFFFF;
+	border-radius: 7px;
+	padding: 5px 35px 5px 5px;
+	width: 150px;
+	font-size: 20pt;
+	color: #0F0F0F;
+	
+	transition: border 0.25s
+}
+
+textarea {
+	margin-top: 15px;
+	width: 80%;
+	font-family: Arial;
+	font-size: 12pt;
+	border: 3px solid #000000;
+	border-radius: 7px;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+select:focus {
+	outline: none;
+	border: 3px solid #000000;
+}
+
+.green {
+	color: #1EB33A;
+}
+
+.red {
+	color: #CF0C0C;
+}
+
+.edit {
+	color: #3A9AB0;
+}
+
+.edit:visited {
+	color: #3A9AB0;
+}
+
+.login {
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.logged-in {
+	position: absolute;
+	font-family: Arial;
+	font-size: 12pt;
+	left: 10px;
+	top: 10px;
+	margin-top: 10px;
+	padding: 0;
+}
+
+input[type="text"], input[type="password"] {
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 7px;
+	border: 3px solid #888888;
+	font-size: 20pt;
+	outline: none;
+	transition: border 0.25s
+}
+input[type="text"]:focus, input[type="password"]:focus {
+	border-color: #000000;
+}
+
+input[type="submit"] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	border: 3px solid #000000;
+	border-radius: 7px;
+	font-size: 16pt;
+	background-color: #FFFFFF;
+	
+	transition: background-color 0.25s, color 0.25s
+}
+input[type="submit"]:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+a.button {
+	text-decoration: none;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 10px 15px;
+	font-family: Arial;
+	font-size: 16pt;
+	border: 3px solid #000000;
+	border-radius: 7px;
+	display: inline-block;
+	margin-bottom: 10px;
+	
+	transition: background-color 0.25s, color 0.25s;
+}
+
+a.button:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+footer {
+	font-family: Arial;
+	font-size: 10pt;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 5px;
+}
